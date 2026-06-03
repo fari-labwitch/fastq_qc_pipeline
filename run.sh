@@ -59,7 +59,7 @@ fi
 # We pin the Nextflow version. In a company setting, you never use 'latest' 
 # because if the pipeline breaks 6 months from now, you need to know exactly 
 # which version of the engine was running it today.
-NEXTFLOW_IMAGE="nextflow/nextflow:26.04.1"
+NEXTFLOW_IMAGE="nextflow/nextflow:26.04.3"
 
 echo "Pulling Nextflow image to ensure it's up to date..."
 docker pull $NEXTFLOW_IMAGE
