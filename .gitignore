@@ -1,0 +1,35 @@
+# Nextflow temporary and log files
+.nextflow/
+.nextflow.log*
+.nextflow.*
+work/
+logs/
+raw/ERR*.fastq.gz
+
+# Execution reports
+trace*.txt*
+timeline*.html*
+report*.html*
+dag*.html*
+dag*.pdf*
+dag*.dot*
+
+# Output directories
+output/
+results/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
